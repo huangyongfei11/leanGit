@@ -1,27 +1,6 @@
 # leanGit
 git命令练习
 
-app:
-  id: LEAP.6c58776423d336cb794f7ffd3d602177
-#env: DEV
-#env: SIT
-env: POC
-apollo:
-  bootstrap:
-    eagerLoad:
-      enabled: true
-  cluster: default
-  # 该地址对应SIT环境
-  #  meta: http://168.63.117.42:8080,http://168.63.117.43:8080,http://168.63.117.44:8080
-  # 该地址对应DEV环境
-  #  meta: http://168.61.11.7:8085
-  # 该地址对应POC环境
-  meta: http://168.61.11.191:8080
-  cacheDir: cache
-
-
-
-
 
 spring:
   mvc:
